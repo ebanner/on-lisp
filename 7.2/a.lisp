@@ -15,4 +15,6 @@
        (0 ,zero)
        (-1 ,neg))))
 
+(macroexpand '(nif 0 'p 'z 'n))
+
 (nif 0 'p 'z 'n)
